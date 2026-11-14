@@ -24,3 +24,11 @@ desktop.ini
 # 本地环境变量文件（存放数据库口令等）
 .env
 .env.local
+
+# 数据中间产物（体积大，可由脚本重新生成，不入库）
+bilibili_food_analysis/*_cleaned.csv
+bilibili_food_analysis/*_features.csv
+
+# 临时文件
+~$*.xlsx
+~$*.docx
